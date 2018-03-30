@@ -1,0 +1,8 @@
+Git 学习总结
+     GitHub是面向开源和私人项目的托管平台，使用git分布式版本控制系统，故名GitHub。它不仅有命令行式的应用git bash,同时也有图形界面的桌面应用包括Windows平台和
+Mac平台，GitHub for Windows 是GitHub开发的Windows平台的桌面应用，采用图形化的界面将传统git bash中的命令进行了包装，简单易用。但是想要真正了解
+git版本控制的原理还是要自己一行命令一行命令的实际操作，打一个不太恰当的比方，git bash命令行的行式就像使用汇编语言编写程序，这对编程人员对计算机工作
+原理的了解程度有很高的要求，而GitHub for Windows则是较为高级的语言如Python、Java、C等，它使你不需要了解计算机具体的工作原理就可以完成变成的工作，
+两者并不是不相容的两个东西，只是看使用者的使用习惯和能力水平。
+     GitHub的价值不仅在于其git的版本控制系统，其上的有许多高质量的开源代码，开源项目，可以下载学习，也可以参与其中共同开发。
+     Please try to persuade your stupid boss to use git!
