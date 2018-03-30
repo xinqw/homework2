@@ -1,0 +1,51 @@
+========================== Part 1: init ====================
+pwd
+git init
+git add <filename>
+git command -m ""
+========================== Part 2: check ===================
+git status
+git diff
+========================== Part 3: version back ============
+git log
+git reflog
+git reset --hard HEAD^
+========================== Part 4: undo change =============
+git checkout -- file
+git reset HEAD file
+========================== Part 5: delete file =============
+rm file
+git rm file
+git commit
+git checkout -- file
+========================== Part 6: origin ===================
+git remote add origin git@github.com:LHaoRax/learn.git
+git push -u origin master
+git clone git@github.com:LHaoRax/learn.git
+========================== Part 7: branch ===================
+git branch
+git branch dev
+git checkout dev
+git checkout -b dev
+git merge dev
+git checkout -d dev
+========================== Part 8: conflict ==================
+git log --graph
+========================== Part 9: delete branch =============
+git branch -d feature-vulcan
+git branch -D feature-vulcan
+========================== Part 10: multiply col =============
+git remove -v
+git push origin branch-name
+git pull 
+git checkout -b dev origin/dev
+git checkout --set-upstream branch-name origin/branch-name
+========================== Part 11: tag ======================
+git tag name
+git tag name command id
+git tag
+========================== Part 12: delete tag ===============
+git tag -d v1.0
+git push origin tagname
+git push origin --tags
+git push origin :refs/tags/tagname
