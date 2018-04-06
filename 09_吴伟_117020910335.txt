@@ -1,0 +1,22 @@
+以下主要总结了Git常用的操作。
+1.本地操作
+git init在当前文件夹下创建库，然后才能进行操作
+git add 文件名.后缀 添加文件
+git add 文件夹名 添加文件夹
+git add . 添加当前文件夹下所有文件
+git commit -m “message”
+git branch 查看所有分支
+git branch newbranch创建新分支
+git checkout branchname 切换到某个分支
+git branch -D branchname删除某个分支
+git merge branchname 合并新分支。一般是切换到master下进行合并操作
+git log 序列代码 -1 -p查看修改内容
+git log 查看修改历史
+git checkout 序列号,下载历史版本到本地仓库（最好先对目前的文件进行备份）
+
+2.结合远程仓库操作
+git clone 网址 结果是下载下来一整个文件夹，然后必须在文件夹内进行修改，因为.git文件在文件夹内
+git fetch origin master从远程把修改同步到本地
+git merge origin/master 将修改合并到主分支上
+git pull origin master合并前面两步
+git push origin 分支名 将修改同步到远程
