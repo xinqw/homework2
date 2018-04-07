@@ -1,0 +1,49 @@
+经过对于git的学习之后，总结出如下主要的git常用命令：
+
+创建版本库：
+git clone <url>
+git init
+
+修改和提交：
+git status
+git diff
+git add .
+git add <file>
+git mv <old> <new>
+git rm <file>
+git rm --cached <file>
+git commit -m "commit message"
+git commit --amend
+
+查看提交历史：
+git log
+git log -p <file>
+git blame <file>
+
+撤销：
+git reset --hard HEAD
+git checkout HEAD <file>
+git revert <commit>
+
+分支与标签：
+git branch
+git checkout <branch/tag>
+git branch <new-branch>
+git branch -d <branch>
+git tag
+git tag <tagname>
+git tag -d <tagname>
+
+合并与衍合：
+git merge <branch>
+git rebase <branch>
+
+远程操作：
+git remote -v
+git remote show <remote>
+git remote add <remote> <url>
+git fetch <remote>
+git pull <remote> <branch>
+git push <remote> <branch>
+git push <remote> :<branch/tag-name>
+git push --tags
