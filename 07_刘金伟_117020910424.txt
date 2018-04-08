@@ -1,0 +1,28 @@
+通过课程学习了解到Git:
+
+  Git 是是一个开源的分布式版本控制系统，可以有效、高速的处理从很小到非常大的项目版本管理.
+  Git常用命令：
+创建版本库：
+  git init
+增加内容：
+  git add
+提交内容：
+  git commit
+管理分支：
+  git branch
+  git merge
+  git diff
+  git show-branch
+  git checkout
+  git reset
+  git tag -s
+  git fetch
+  git repack
+发布工作
+  git push
+  git-send-pack
+  git-receive-pack
+管理版本库
+  git-daemon(1)
+  git-shell(1)
+
