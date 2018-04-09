@@ -1,0 +1,20 @@
+1.GitHub简介：
+GitHub是一个面向开源及私有软件项目的托管平台，因为只支持Git 作为唯一的版本库格式进行托管，故名GitHub。
+除了Git代码仓库托管及基本的 Web管理界面以外，还提供了订阅、讨论组、文本渲染、在线文件编辑器、协作图谱（报表）、
+代码片段分享（Gist）等功能。
+
+2.GitHub操作流程：
+Step 1.	Create a Repository
+相当于建立一个库，可以存储几乎任何工程所需的资源文件，例如文件夹、图片、视频等。
+可以用来储存好的想法、资源，以及与其他共同开发人员进行小组交流。
+Step 2. Create a Branch
+当一个软件工程的参与人员要独立实现某一功能特性时，可以通过建立Branch来进行编辑，
+不会影响其他人员的工作进度。当要开发的功能实现时，可以通过Merge与Master合并，
+从而在保证整体功能的基础上，加快其他功能的开发进度。
+Step 3. Make and commit changes
+每次对源文件进行改变时，都需要对新上传的文件中的修改内容进行相关描述，以方便与其他人员沟通。
+Step 4. Open a Pull Request
+Pull Request应该说是软件工程多人员协作过程中比较重要的一个环节。通过Pull Request，
+相当于是将自己修改过的文件上传，并请求其他人员浏览，无误后与Master进行Merge.
+Step 5. Merge your Pull Request
+将修改过的源文件与Master进行Merge，完成最终版本。
