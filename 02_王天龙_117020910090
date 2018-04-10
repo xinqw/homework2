@@ -1,0 +1,8 @@
+GitHub可以托管各种git库，并提供一个web界面，其独特卖点在于从另外一个项目进行分支的简易性。为一个项目贡献代码非常简单：首先点击项目站点的“fork”的按钮，然后将代码检出并将修改加入到刚才分出的代码库中，最后通过内建的“pull request”机制向项目负责人申请代码合并。已经有人将GitHub称为代码玩家的MySpace。
+在GitHub进行分支就像在Myspace（或Facebook…）进行交友一样，在社会关系图的节点中不断的连线。其具体使用流程一般有以下几步：
+1.	Create a Repository 
+2.	Create a Branch 
+3.	Make and commit changes 
+4.	Open a Pull Request 
+5.	Merge your Pull Request
+本次对于github的学习只是简单的了解，想要进一步的深入，需要在本学期之后的项目进展过程中通过实际运用来实现，拭目以待吧。
