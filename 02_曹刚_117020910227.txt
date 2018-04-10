@@ -1,0 +1,35 @@
+GitHub是一个利用Git进行版本控制、专门用于存放软件代码与内容的共享虚拟主机服务。它由GitHub公司（曾称Logical Awesome）的开发者Chris Wanstrath、
+PJ Hyett和Tom Preston-Werner使用Ruby on Rails编写而成。GitHub可以托管各种git库，并提供一个web界面，但与其它像 SourceForge或Google Code这样
+的服务不同，GitHub的独特卖点在于从另外一个项目进行分支的简易性。为一个项目贡献代码非常简单：首先点击项目站点的“fork”的按钮，然后将代码检出并将修
+改加入到刚才分出的代码库中，最后通过内建的“pull request”机制向项目负责人申请代码合并。已经有人将GitHub称为代码玩家的MySpace。
+几个基本Github命令的使用：
+1.git clone
+     用于克隆代码到本地。     
+     git cloneurl ——克隆url对应的项目到本地。
+     git clone url folderName ——将url对应的项目克隆岛folderName文件夹
+2. git pull 
+     Github支持协作代码开发管理,会经常遇到需要更新别人的代码或者在不同的电脑上更新自己的代码。那么使用git pull命令即可更新代码。git pull 可以接
+     受很多中参数，详见常见具体的用法为：
+     git pull—— 直接从远程主分支更新代码 , git pull 相当于git pull origin master
+     git pull forkName branchName —— 从forkName对应的url更新branchName分支。
+3. git remote
+    用于管理远程仓库。
+    git remote —— 显示已经添加的远程仓库名称列表,当从远程地址上clone了一个项目时，会默认添加一个origin名字的仓库，对应clone时的url。等同于
+    git remote show
+    git remote show name —— 显示具体名字对应的仓库的信息
+4. git fetch
+    用于更新代码，和git pull 功能类似，但是有一些区别。git pull 更新完代码后会自动合并到当前分支，而git fetch不会合并。常见用法如下：
+    git fetch origin master ——— 将分支代码更新到origin/master分支上
+    git fetch forkName remoteBranchName:branchName ——— 将分支代码更新到branchName分支上
+5. git merge
+处理分支的合并。
+    git merge master —— 将主分支合并到当前分支。如果没有任何冲突则使用此命令即可。 
+6.  git bran
+       用于本地分支的管理
+       git branch —— 查看当前仓库的所有本地分支
+       git branch branchName —— 创建名字为branchName的分支
+       git branch -D branchName—— 删除名字为branchName的分支 
+7.  git checkout
+       git checkout用于分支的切换，如：
+       git checkout test —— 如果test分支存在，则切换到test分支
+       git checkout -b test —— 用于test分支不存在的情况，会先创建test分支再切换到test分支。相当于git branch test , git checkout test两条命令。
