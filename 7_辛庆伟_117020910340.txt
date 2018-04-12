@@ -1,0 +1,22 @@
+Github学习心得
+GIT 以及 GITHUB 简介
+Git 是 Linus 在开发 Linux 内核时用于替换 Bitkeeper 版本控制工具（该工具不是免费的）而写的一个开源的分布式版本控制软件。而 Github 是一个代码托管网站。而代码托管的意思是允许人们把代码放到 Github ，并为团队开发提供一种比较简单的代码同步方法。Git 是一个分布式的版本控制工具。分布式主要是针对已有的 SVN 、CVS 受中央控制的版本控制工具而言的。在git里，每个代码库在相互独立的同时，又可以相互交换代码（通过push/pull）进行代码的交换。这里主要介绍Github在 Windows 上的使用。
+安装 Github for Windows
+在http://windows.github.com/上下载 Github for Windows ，按提示安装即可。在安装过程中，git 的命令行版本也会一并安装。虽然在 Windows 下大多数应用都是基于图形界面的，但是使用 git 还是很有必要用命令行。
+Github for Windows 实际上是 Github 网站的客户端版本，有网站上的一切功能，并且，为上传、更新位于 github.com 的代码库进行了良好的支持。使用 Github 帐号登陆以后，在图形界面里可以轻易地创建代码库。
+Git 常用命令使用
+命令行里git的命令列表以及解释：
+git clone <address>：复制代码库到本地。
+git add <file> ...：添加文件到代码库中。
+git rm <file> ...：删除代码库的文件。
+git commit -m <message>：提交更改，在修改了文件以后，使用这个命令提交修改。
+git pull：从远程同步代码库到本地。
+git push：推送代码到远程代码库。
+git branch：查看当前分支。带*是当前分支。
+git branch <branch-name>：新建一个分支。
+git branch -d <branch-name>：删除一个分支。
+git checkout <branch-name>：切换到指定分支。
+git log：查看提交记录（即历史的 commit 记录）。
+git status：当前修改的状态，是否修改了还没提交，或者那些文件未使用。
+git reset <log>：恢复到历史版本。
+看了这些命令以后，对里面的名词肯定有所疑问。**代码库**应该很好理解，就是存放代码的地方，而在 git clone 里，代码库一般指的是远程的代码库，即 github 给出的链接。而**分支**则是开发的一个阶段或者一个旁系版本，至于怎么定则取决于使用者了。例如，有一个分支叫做stable，代表里面的代码是经过测试的、稳定的；另一个分支叫dev，则是保存开发中的代码，不一定经过足够测试。
